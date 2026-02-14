@@ -1,0 +1,29 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f5f8ff;
+  --surface: #ffffff;
+  --ink: #0f172a;
+  --muted: #64748b;
+  --line: #dbe7ff;
+}
+
+body {
+  color: var(--ink);
+  background:
+    radial-gradient(80% 120% at 10% 0%, #e5efff 0%, transparent 60%),
+    radial-gradient(80% 120% at 95% 0%, #d8f8ea 0%, transparent 55%),
+    var(--bg);
+}
+
+.card {
+  @apply rounded-2xl bg-white shadow-card border border-slate-100;
+}
+
+.panel-title {
+  @apply text-sm font-semibold tracking-wide uppercase text-slate-500;
+}
