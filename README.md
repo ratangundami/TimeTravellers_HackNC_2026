@@ -130,9 +130,4 @@ If Plaid keys are missing, app automatically falls back to demo transactions.
   - `transactionTimeline`
 - Includes unit-test style usage examples in file comments.
 
-## 6) Hackathon Notes
-
-- No TypeScript used.
-- Auth intentionally simplified to single demo user id.
-- No money movement or trade execution; simulation only.
 
